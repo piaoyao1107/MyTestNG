@@ -2,6 +2,7 @@
 <suite name="test">
     <test name="这是我的测试套件">
         <classes>
+            <!--
             <class name="com.tester.extend.demo.TestMethod">
                 <methods>
                     <include name="test1" />
@@ -19,6 +20,21 @@
                 <methods>
                     <include name="testcase0001" />
                     <include name="testcase0002" />
+                </methods>
+            </class>
+            -->
+            <class name="com.course.testng.marketing.TestAuthor">
+                <methods>
+                    <include name="testListAuthor" />
+                    <include name="testAddAuthor" />
+                    <include name="testEditAuthor" />
+                    <include name="testDeleteAuthor" />
+                </methods>
+            </class>
+            <class name="com.course.testng.marketing.TestCategory">
+                <methods>
+                    <include name="testListCategory" />
+                    <include name="testAddCategory" />
                 </methods>
             </class>
         </classes>

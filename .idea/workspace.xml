@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d557f38-6181-4420-a3d5-9e6345010bc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestMarketingLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/test-output/index.html" afterDir="false" />
     </list>
@@ -27,71 +28,66 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestMethod.java">
+        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="278">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/PayTest.java">
+        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestMarketingLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestPost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="878">
+              <caret line="163" column="25" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#7588#7604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2603#2619#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml">
+        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestAuthor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="1215">
+              <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter1/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter1/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -100,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
-              <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+              <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -125,11 +121,15 @@
         <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/PayTest.java" />
         <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/LoginTest.java" />
         <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/SuiteConfig.java" />
-        <option value="$PROJECT_DIR$/Chapter1/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestMethod.java" />
         <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestPost.java" />
+        <option value="$PROJECT_DIR$/Chapter1/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestAuthor.java" />
+        <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestMarketingLogin.java" />
         <option value="$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/Chapter1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestCategory.java" />
       </list>
     </option>
   </component>
@@ -213,6 +213,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="marketing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestNG" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
               <item name="suite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,6 +297,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMarketingLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.marketing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.marketing" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.marketing.TestMarketingLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml" />
@@ -299,6 +327,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.TestMarketingLogin" />
         <item itemvalue="TestNG.BasicAnnotation" />
       </list>
     </recent_temporary>
@@ -317,15 +346,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_apple_Downloads_TestNG_Chapter1_src_main_resources_testng_xml - 2019.10.04 at 16h 51m 43s.xml">
-      <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation - 2019.10.04 at 16h 52m 24s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_apple_Downloads_TestNG_Chapter1_src_main_resources_testng_xml - 2019.10.04 at 16h 53m 00s.xml">
-      <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_apple_Downloads_TestNG_Chapter1_src_main_resources_testng_xml - 2019.10.04 at 18h 55m 30s.xml">
       <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -347,6 +367,15 @@
     <history-entry file="_Users_apple_Downloads_TestNG_Chapter1_src_main_resources_testng_xml - 2019.10.04 at 22h 27m 03s.xml">
       <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMarketingLogin - 2019.10.04 at 22h 37m 22s.xml">
+      <configuration name="TestMarketingLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_apple_Downloads_TestNG_Chapter1_src_main_resources_testng_xml - 2019.10.04 at 22h 40m 31s.xml">
+      <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_apple_Downloads_TestNG_Chapter1_src_main_resources_testng_xml - 2019.10.04 at 22h 48m 33s.xml">
+      <configuration name="/Users/apple/Downloads/TestNG/Chapter1/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -360,12 +389,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" weight="0.13900709" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26666668" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3602837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
-          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+          <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -457,20 +486,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="527">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestMethod.java">
+    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -489,23 +518,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/suite/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/tester/extend/demo/TestMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="278">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestMarketingLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="163" column="25" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7588#7604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2603#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
