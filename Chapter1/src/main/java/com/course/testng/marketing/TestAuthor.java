@@ -40,8 +40,7 @@ public class TestAuthor {
                                 "timestamp","2019-09-27 12:14:05",
                                 "version","").
                         when().
-//                        post("https://admin-test300.newtamp.cn/api/admin/gwy").
-        post(testUrl).
+                        post(testUrl).
                         then().
                         body("code",equalTo("0")).
                         extract().response();
@@ -52,12 +51,14 @@ public class TestAuthor {
     //查询作者列表接口
     @Test(priority = 1)
     public void testListAuthor(){
+        String uri = bundle.getString("test.list.author");
+        String testUrl = this.url + uri;
         Response response =
                 given().
                         headers("Authorization",token,
                                 "token",token).
                         when().
-                        get("https://admin-test300.newtamp.cn/api/mc/v2/content/list?page=0&pageSize=20&categoryId=&authorId=&media=").
+                        get(testUrl).
                         then().log().ifError().
                         body("msg",equalTo("成功")).
                         extract().response();
