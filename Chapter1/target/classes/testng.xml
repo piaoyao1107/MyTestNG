@@ -37,6 +37,11 @@
                     <include name="testAddCategory" />
                 </methods>
             </class>
+            <class name="com.course.testng.marketing.TestContent">
+                <methods>
+                    <include name="testListContent" />
+                </methods>
+            </class>
         </classes>
     </test>
     <listeners>
