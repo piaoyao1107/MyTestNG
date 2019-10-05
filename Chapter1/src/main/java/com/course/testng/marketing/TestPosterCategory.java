@@ -2,18 +2,23 @@ package com.course.testng.marketing;
 
 import com.alibaba.fastjson.JSON;
 import io.restassured.response.Response;
-import org.testng.annotations.*;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class TestAuthor {
+public class TestPosterCategory {
 
     private String url;
     private String token;
-    private String authorId;
+    private String categoryId;
+    private int ordinal;
     private ResourceBundle bundle;
 
     @BeforeTest
@@ -46,10 +51,10 @@ public class TestAuthor {
         token = response.path("data.token");
     }
 
-    //查询作者列表接口
+    //精品海报分类列表接口
     @Test(priority = 1)
-    public void testListAuthor(){
-        String uri = bundle.getString("test.list.author");
+    public void testListCategory(){
+        String uri = bundle.getString("test.list.poster.category");
         String testUrl = this.url + uri;
         Response response =
                 given().
@@ -60,21 +65,24 @@ public class TestAuthor {
                         then().log().ifError().
                         body("msg",equalTo("成功")).
                         extract().response();
-        System.out.println("【查询作者列表】接口返回信息是："+response.asString());
+        System.out.println("【查询海报分类列表】接口返回信息是："+response.asString());
+        //获取列表数据条数
+        List content = response.path("param.content");
+        Assert.assertTrue(content.size() > 0);
     }
 
-    //添加作者
+    //添加海报分类接口
     @Test(priority = 2)
-    public void testAddAuthor(){
+    public void testAddPosterCategory(){
 
-        String uri = bundle.getString("test.add.author");
+        String uri = bundle.getString("test.add.poster.category");
         String testUrl = this.url + uri;
-        long nowDate =  new Date().getTime();
-        String authorName = "作者"+nowDate;
-        String avatar = "https://fs.newbanker.cc/img/2099/2019/9/28/7480d22aee1945fba582dbd931ad016c.jpg";
+
+        SimpleDateFormat df = new SimpleDateFormat("HHmmss");//设置日期格式
+        String nowDate =  df.format(new Date());
+        String categoryName = "分类"+nowDate;
         Map<String, Object> map = new HashMap<String, Object>();
-        map.put("name",authorName);
-        map.put("avatar",avatar);
+        map.put("name",categoryName);
         String mapJson = JSON.toJSONString(map);
 
         Response response =
@@ -88,80 +96,48 @@ public class TestAuthor {
                         then().log().ifError().
                         body("msg",equalTo("成功")).
                         extract().response();
-        System.out.println("【添加作者】接口返回信息是："+response.asString());
-
-        //获取作者id
-        authorId = response.path("param.id");
-
-
+        System.out.println("【添加海报分类】接口返回信息是："+response.asString());
+        categoryId = response.path("param.id");
+        ordinal = response.path("param.ordinal");
     }
 
-    //修改作者name
+    //编辑海报分类接口
     @Test(priority = 3)
-    public void testEditAuthor(){
+    public void testEditPosterCategory(){
 
-
-        String uri = bundle.getString("test.edit.author");
+        String uri = bundle.getString("test.edit.poster.category");
         String testUrl = this.url + uri;
-        //拼接请求地址
-        String getAuthorUrl = this.url+"/api/mc/v1/content/author?authorId="+authorId;
 
-        Response response =
-                given().
-                        headers("Authorization",token,
-                                "token",token,
-                                "Content-Type","application/json; charset=UTF-8").
-                        when().
-                        get(getAuthorUrl).
-                        then().log().ifError().
-                        body("msg",equalTo("成功")).
-                        extract().response();
-        System.out.println("【编辑作者】接口返回信息是："+response.asString());
-        String timeCreated = response.path("param.timeCreated");
-        String timeLastUpdated = response.path("param.timeLastUpdated");
-        String groupId = response.path("param.groupId");
-        String avatar = response.path("param.avatar");
-        String status = response.path("param.status");
-        String channel = response.path("param.channel");
-        int contentCount = response.path("param.contentCount");
-        int shareNumber = response.path("param.shareNumber");
-
-        long nowDate =  new Date().getTime();
-        String authorName = "作者"+nowDate;
-
+        SimpleDateFormat df = new SimpleDateFormat("HHmmss");//设置日期格式
+        String nowDate =  df.format(new Date());
+        String categoryName = "类分"+nowDate;
         Map<String, Object> map = new HashMap<String, Object>();
-        map.put("avatar",avatar);
-        map.put("channel",channel);
-        map.put("contentCount",contentCount);
-        map.put("groupId",groupId);
-        map.put("id",authorId);
-        map.put("name",authorName);
-        map.put("shareNumber",shareNumber);
-        map.put("status",status);
-        map.put("timeCreated",timeCreated);
-        map.put("timeLastUpdated",timeLastUpdated);
-
+        map.put("name",categoryName);
+        map.put("id",categoryId);
+        map.put("ordinal",ordinal);
         String mapJson = JSON.toJSONString(map);
 
-        Response response1 =
+        Response response =
                 given().
                         headers("Authorization",token,
                                 "token",token,
                                 "Content-Type","application/json; charset=UTF-8").
                         body(mapJson).
                         when().
-                        post(testUrl).
+                        put(testUrl).
                         then().log().ifError().
                         body("msg",equalTo("成功")).
                         extract().response();
-        System.out.println("【保存编辑作者】接口返回信息是："+response1.asString());
+        System.out.println("【编辑海报分类】接口返回信息是："+response.asString());
+
     }
 
-    //删除作者
-    @Test(priority = 4,enabled = false)
-    public void testDeleteAuthor(){
+    //删除海报分类接口
+    @Test(priority = 4)
+    public void testDeletePosterCategory(){
 
-        String deleteAuthorUrl = this.url+"/api/mc/v1/content/author/archive?authorId="+authorId;
+        String uri = bundle.getString("test.delete.poster.category");
+        String testUrl = this.url + uri+categoryId;
 
         Response response =
                 given().
@@ -169,12 +145,12 @@ public class TestAuthor {
                                 "token",token,
                                 "Content-Type","application/json; charset=UTF-8").
                         when().
-                        post(deleteAuthorUrl).
+                        post(testUrl).
                         then().log().ifError().
                         body("msg",equalTo("成功")).
                         extract().response();
-        System.out.println("【删除作者】接口返回信息是："+response.asString());
-
+        System.out.println("【删除海报分类】接口返回信息是："+response.asString());
     }
 
 }
+

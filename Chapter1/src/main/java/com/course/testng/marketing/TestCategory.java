@@ -2,9 +2,7 @@ package com.course.testng.marketing;
 
 import com.alibaba.fastjson.JSON;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.*;
 
@@ -15,7 +13,6 @@ public class TestCategory {
 
     private String url;
     private String token;
-    private String authorId;
     private ResourceBundle bundle;
 
     @BeforeTest
@@ -91,4 +88,5 @@ public class TestCategory {
                         extract().response();
         System.out.println("【添加分类】接口返回信息是："+response.asString());
     }
+
 }
