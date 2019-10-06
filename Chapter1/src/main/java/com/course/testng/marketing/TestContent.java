@@ -3,6 +3,7 @@ package com.course.testng.marketing;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,7 @@ public class TestContent {
         System.out.println("【登陆】接口返回信息是："+response.asString());
         token = response.path("data.token");
     }
+
 
     //查询转发助手列表接口
     @Test(priority = 1)

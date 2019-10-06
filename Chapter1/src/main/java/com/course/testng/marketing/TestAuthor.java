@@ -158,7 +158,7 @@ public class TestAuthor {
     }
 
     //删除作者
-    @Test(priority = 4,enabled = false)
+    @Test(priority = 4)
     public void testDeleteAuthor(){
 
         String deleteAuthorUrl = this.url+"/api/mc/v1/content/author/archive?authorId="+authorId;

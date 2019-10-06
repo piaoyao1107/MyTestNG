@@ -1,53 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="test">
-    <test name="这是我的测试套件">
+    <test name="飘摇的接口测试套件">
         <classes>
-            <!--
-            <class name="com.tester.extend.demo.TestMethod">
+<!--            <class name="com.course.testng.marketing.TestAuthor">-->
+<!--                <methods>-->
+<!--                    <include name="testListAuthor" />-->
+<!--                    <include name="testAddAuthor" />-->
+<!--                    <include name="testEditAuthor" />-->
+<!--                    <include name="testDeleteAuthor" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.testng.marketing.TestCategory">-->
+<!--                <methods>-->
+<!--                    <include name="testListCategory" />-->
+<!--                    <include name="testAddCategory" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.testng.marketing.TestContent">-->
+<!--                <methods>-->
+<!--                    <include name="testListContent" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.testng.marketing.TestPosterCategory">-->
+<!--                <methods>-->
+<!--                    <include name="testListCategory" />-->
+<!--                    <include name="testAddPosterCategory" />-->
+<!--                    <include name="testEditPosterCategory" />-->
+<!--                    <include name="testDeletePosterCategory" />-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.course.demo.TestDemo">
                 <methods>
-                    <include name="test1" />
-                    <include name="test2" />
-                    <include name="logDemo" />
-                </methods>
-            </class>
-            <class name="com.tester.extend.demo.TestPost">
-                <methods>
-                    <include name="test10" />
-                    <include name="test11" />
-                </methods>
-            </class>
-            <class name="com.course.testng.suite.LoginTest">
-                <methods>
-                    <include name="testcase0001" />
-                    <include name="testcase0002" />
-                </methods>
-            </class>
-            -->
-            <class name="com.course.testng.marketing.TestAuthor">
-                <methods>
-                    <include name="testListAuthor" />
-                    <include name="testAddAuthor" />
-                    <include name="testEditAuthor" />
-                    <include name="testDeleteAuthor" />
-                </methods>
-            </class>
-            <class name="com.course.testng.marketing.TestCategory">
-                <methods>
-                    <include name="testListCategory" />
-                    <include name="testAddCategory" />
-                </methods>
-            </class>
-            <class name="com.course.testng.marketing.TestContent">
-                <methods>
-                    <include name="testListContent" />
-                </methods>
-            </class>
-            <class name="com.course.testng.marketing.TestPosterCategory">
-                <methods>
-                    <include name="testListCategory" />
-                    <include name="testAddPosterCategory" />
-                    <include name="testEditPosterCategory" />
-                    <include name="testDeletePosterCategory" />
+                    <include name="testcase1" />
+                    <include name="testcase2" />
                 </methods>
             </class>
         </classes>
@@ -56,6 +41,6 @@
         <!--
         <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter" />
         -->
-        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListener" />
+        <listener class-name="com.course.testng.reporter.ExtentTestNGIReporterListener" />
     </listeners>
 </suite>

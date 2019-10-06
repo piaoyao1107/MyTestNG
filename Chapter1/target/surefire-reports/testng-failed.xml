@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [test]">
+  <listeners>
+    <listener class-name="com.course.testng.reporter.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="飘摇的接口测试套件(failed)">
+    <classes>
+      <class name="com.course.demo.TestDemo">
+        <methods>
+          <include name="testcase2"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="AfterSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.course.demo.TestDemo -->
+    </classes>
+  </test> <!-- 飘摇的接口测试套件(failed) -->
+</suite> <!-- Failed suite [test] -->
