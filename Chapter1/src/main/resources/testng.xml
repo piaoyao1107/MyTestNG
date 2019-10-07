@@ -2,39 +2,44 @@
 <suite name="test">
     <test name="飘摇的接口测试套件">
         <classes>
-<!--            <class name="com.course.testng.marketing.TestAuthor">-->
-<!--                <methods>-->
-<!--                    <include name="testListAuthor" />-->
-<!--                    <include name="testAddAuthor" />-->
-<!--                    <include name="testEditAuthor" />-->
-<!--                    <include name="testDeleteAuthor" />-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="com.course.testng.marketing.TestCategory">-->
-<!--                <methods>-->
-<!--                    <include name="testListCategory" />-->
-<!--                    <include name="testAddCategory" />-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="com.course.testng.marketing.TestContent">-->
-<!--                <methods>-->
-<!--                    <include name="testListContent" />-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="com.course.testng.marketing.TestPosterCategory">-->
-<!--                <methods>-->
-<!--                    <include name="testListCategory" />-->
-<!--                    <include name="testAddPosterCategory" />-->
-<!--                    <include name="testEditPosterCategory" />-->
-<!--                    <include name="testDeletePosterCategory" />-->
-<!--                </methods>-->
-<!--            </class>-->
-            <class name="com.course.demo.TestDemo">
+            <class name="com.course.testng.marketing.TestLogin">
                 <methods>
-                    <include name="testcase1" />
-                    <include name="testcase2" />
+                    <include name="testLogin" />
                 </methods>
             </class>
+            <class name="com.course.testng.marketing.TestAuthor">
+                <methods>
+                    <include name="testListAuthor" />
+                    <include name="testAddAuthor" />
+                    <include name="testEditAuthor" />
+                    <include name="testDeleteAuthor" />
+                </methods>
+            </class>
+            <class name="com.course.testng.marketing.TestCategory">
+                <methods>
+                    <include name="testListCategory" />
+                    <include name="testAddCategory" />
+                </methods>
+            </class>
+            <class name="com.course.testng.marketing.TestContent">
+                <methods>
+                    <include name="testListContent" />
+                </methods>
+            </class>
+            <class name="com.course.testng.marketing.TestPosterCategory">
+                <methods>
+                    <include name="testListCategory" />
+                    <include name="testAddPosterCategory" />
+                    <include name="testEditPosterCategory" />
+                    <include name="testDeletePosterCategory" />
+                </methods>
+            </class>
+<!--            <class name="com.course.demo.TestDemo">-->
+<!--                <methods>-->
+<!--                    <include name="testcase1" />-->
+<!--                    <include name="testcase2" />-->
+<!--                </methods>-->
+<!--            </class>-->
         </classes>
     </test>
     <listeners>

@@ -41,8 +41,7 @@ public class TestMarketingLogin {
                                 "timestamp","2019-09-27 12:14:05",
                                 "version","").
                         when().
-//                        post("https://admin-test300.newtamp.cn/api/admin/gwy").
-        post(testUrl).
+                        post(testUrl).
                         then().
                         body("code",equalTo("0")).
                         extract().response();
