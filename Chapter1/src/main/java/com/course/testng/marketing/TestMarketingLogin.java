@@ -15,7 +15,6 @@ public class TestMarketingLogin {
 
     private String url;
     private String token;
-    private String authorId;
     private ResourceBundle bundle;
 
     @BeforeTest

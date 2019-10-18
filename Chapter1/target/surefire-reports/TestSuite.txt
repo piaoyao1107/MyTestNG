@@ -1,14 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.65 sec <<< FAILURE!
-testcase2(com.course.demo.TestDemo)  Time elapsed: 0.008 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.753 sec <<< FAILURE!
+testcase2(com.course.demo.TestDemo)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError: expected [2] but found [1]
 	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at org.testng.Assert.assertEquals(Assert.java:399)
-	at com.course.demo.TestDemo.testcase2(TestDemo.java:17)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.course.demo.TestDemo.testcase2(TestDemo.java:20)
 

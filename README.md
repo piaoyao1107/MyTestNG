@@ -15,3 +15,6 @@ pom.xml
   
 application.properties
   请求地址，比如url和uri的统一配置，便于管理和维护
+
+
+大致思路：

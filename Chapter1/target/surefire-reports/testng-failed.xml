@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.course.testng.reporter.ExtentTestNGIReporterListener"/>
   </listeners>
-  <test name="飘摇的接口测试套件(failed)">
+  <test name="接口测试套件demo(failed)">
     <classes>
       <class name="com.course.demo.TestDemo">
         <methods>
@@ -20,5 +20,5 @@
         </methods>
       </class> <!-- com.course.demo.TestDemo -->
     </classes>
-  </test> <!-- 飘摇的接口测试套件(failed) -->
+  </test> <!-- 接口测试套件demo(failed) -->
 </suite> <!-- Failed suite [test] -->

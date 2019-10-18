@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="test">
-    <test name="飘摇的接口测试套件">
+    <test name="接口测试套件demo">
         <classes>
             <class name="com.course.testng.marketing.TestLogin">
                 <methods>
@@ -38,14 +38,12 @@
 <!--                <methods>-->
 <!--                    <include name="testcase1" />-->
 <!--                    <include name="testcase2" />-->
+<!--                    <include name="testBaidu" />-->
 <!--                </methods>-->
 <!--            </class>-->
         </classes>
     </test>
     <listeners>
-        <!--
-        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter" />
-        -->
         <listener class-name="com.course.testng.reporter.ExtentTestNGIReporterListener" />
     </listeners>
 </suite>

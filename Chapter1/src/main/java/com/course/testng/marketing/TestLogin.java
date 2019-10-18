@@ -2,8 +2,6 @@ package com.course.testng.marketing;
 
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.Locale;
@@ -49,7 +47,7 @@ public class TestLogin {
         System.out.println("【登陆】接口返回信息是："+response.asString());
         token = response.path("data.token");
         System.out.println("token >>> "+token);
-
-        linkMysql.mysqlUpdate(token);
+//
+//        linkMysql.mysqlUpdate(token);
     }
 }

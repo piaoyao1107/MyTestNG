@@ -1,13 +1,14 @@
 package com.course.testng.marketing;
 
-import io.restassured.response.Response;
-import org.testng.annotations.BeforeSuite;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+import org.testng.annotations.BeforeSuite;
+
+import io.restassured.response.Response;
 
 public class SuiteConfig1 {
 
@@ -39,6 +40,8 @@ public class SuiteConfig1 {
                         extract().response();
         System.out.println("【登陆】接口返回信息是："+response.asString());
         String token = response.path("data.token");
+
+        System.out.println(token);
 
         System.out.println("******************* bbbbbbbbb *******************");
     }
