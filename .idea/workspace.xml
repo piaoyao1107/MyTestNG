@@ -2,57 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d557f38-6181-4420-a3d5-9e6345010bc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/apps/AppLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/demo/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/demo/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/linkMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/linkMysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/SuiteConfig1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/SuiteConfig1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestMarketingLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestMarketingLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestPosterCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketing/TestPosterCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketingV2/TestContent2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/marketingV2/TestContent2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/reporter/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/java/com/course/testng/reporter/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/Chapter1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/Chapter1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/demo/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/demo/TestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/linkMysql.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/linkMysql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/SuiteConfig1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/SuiteConfig1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestAuthor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestAuthor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestMarketingLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestMarketingLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestPosterCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketing/TestPosterCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketingV2/TestContent2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/marketingV2/TestContent2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/reporter/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/com/course/testng/reporter/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/junitreports/TEST-com.course.demo.TestDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/junitreports/TEST-com.course.demo.TestDemo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/old/test/飘摇的接口测试套件.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/test/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/test/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/test/飘摇的接口测试套件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/test/飘摇的接口测试套件.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire/surefire2778850322009829093tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/target/surefire/surefire2856918820721885414tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -283,6 +232,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestNG" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestNG" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="marketing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
@@ -666,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
